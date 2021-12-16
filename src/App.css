@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.Weatherform {
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textbox {
+  flex-grow: 1;
+  border: none;
+  color: #0d192e;
+  background: rgb(228, 240, 248);
+  padding: 0 1.5em;
+  font-size: initial;
+  outline: none;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 0 1.3rem;
+  background: #415679;
+  color: rgb(228, 240, 248);
+  font-weight: bold;
+  height: 3rem;
+  border-radius: 5px;
+  line-height: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgb(163, 199, 217);
+}
+
+.infobox {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.inbox {
+  height: 200px;
+  width: 500px;
+  border-radius: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.3); 
+}
+
+h1{
+  margin-bottom: 5px;
+}
+.otherbox {
+  margin-top: 5px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
