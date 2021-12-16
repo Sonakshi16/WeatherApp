@@ -1,6 +1,8 @@
+import APIKEY from './ApiKey.js';
+
 export function fetchWeather(city) {
     return function(dispatch){
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=d451876cffb3cfb39020901c3abc78ba`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKEY}`)
         .then(res => {
             return res.json();
         })
