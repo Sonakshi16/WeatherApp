@@ -1,3 +1,7 @@
+# Weather App
+A weather app made with React JS, Redux and OpenWeatherMap API.
+Use the link to have a look - https://sonakshi16.github.io/WeatherApp/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
